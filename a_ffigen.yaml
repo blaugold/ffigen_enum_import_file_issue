@@ -1,0 +1,12 @@
+name: A
+description: A
+output:
+  bindings: lib/a.dart
+  symbol-file:
+    output: package:ffigen_enum_import_file_issue/a_symbols.yaml
+    import-path: package:ffigen_enum_import_file_issue/a.dart
+headers:
+  entry-points:
+    - src/a.h
+  include-directives:
+    - src/a.h

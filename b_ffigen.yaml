@@ -1,0 +1,15 @@
+name: B
+description: B
+output:
+  bindings: lib/b.dart
+import:
+  symbol-files:
+    - package:ffigen_enum_import_file_issue/a_symbols.yaml
+headers:
+  entry-points:
+    - src/b.h
+  include-directives:
+    - src/b.h
+compiler-opts:
+  - '-Isrc'
+

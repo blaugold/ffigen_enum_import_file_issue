@@ -1,0 +1,8 @@
+format_version: 1.0.0
+files:
+  package:ffigen_enum_import_file_issue/a.dart:
+    used-config:
+      ffi-native: false
+    symbols:
+      c:a.h@T@Foo:
+        name: Foo
